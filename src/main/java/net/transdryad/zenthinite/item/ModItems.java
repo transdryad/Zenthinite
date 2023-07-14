@@ -13,9 +13,11 @@ import net.transdryad.zenthinite.ZenthiniteMod;
 public class ModItems {
 
     public static final Item GEM = registerItem("gem", new Item(new FabricItemSettings()));
+    public static final Item RAW_GEM = registerItem("raw_gem", new Item(new FabricItemSettings()));
 
     public static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(GEM);
+        entries.add(RAW_GEM);
     }
 
     public static Item  registerItem(String name, Item item) {
