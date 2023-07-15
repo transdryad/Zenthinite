@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_GEM);
 
                         entries.add(ModBlocks.GEM_BLOCK);
+                        entries.add(ModBlocks.RAW_GEM_BLOCK);
 
                     }).build());
 

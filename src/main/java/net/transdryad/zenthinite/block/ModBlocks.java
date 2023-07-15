@@ -15,8 +15,13 @@ import net.minecraft.util.Identifier;
 import net.transdryad.zenthinite.ZenthiniteMod;
 
 public class ModBlocks {
+
     public static final Block GEM_BLOCK = registerBlock("zenthinite_block",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).mapColor(MapColor.RED).pistonBehavior(PistonBehavior.IGNORE).sounds(BlockSoundGroup.METAL)));
+
+    public static final Block RAW_GEM_BLOCK = registerBlock("raw_zenthinite_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).mapColor(MapColor.RED).pistonBehavior(PistonBehavior.IGNORE).sounds(BlockSoundGroup.METAL)));
+
 
 
     private static Block registerBlock(String name, Block block) {
@@ -30,7 +35,7 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        ZenthiniteMod.LOGGER.info("Registering Mod Items For " + ZenthiniteMod.MOD_ID);
+        ZenthiniteMod.LOGGER.info("Registering Mod BLocks For " + ZenthiniteMod.MOD_ID);
 
     }
 }
