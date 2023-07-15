@@ -35,7 +35,7 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        ZenthiniteMod.LOGGER.info("Registering Mod BLocks For " + ZenthiniteMod.MOD_ID);
+        ZenthiniteMod.LOGGER.info("Registering Mod Blocks For " + ZenthiniteMod.MOD_ID);
 
     }
 }
