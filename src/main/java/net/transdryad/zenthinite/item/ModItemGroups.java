@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.transdryad.zenthinite.ZenthiniteMod;
+import net.transdryad.zenthinite.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup ZENTHINITE_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -16,6 +17,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.GEM)).entries((displayContext, entries) -> {
                         entries.add(ModItems.GEM);
                         entries.add(ModItems.RAW_GEM);
+
+                        entries.add(ModBlocks.GEM_BLOCK);
 
                     }).build());
 

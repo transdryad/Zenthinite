@@ -2,6 +2,7 @@ package net.transdryad.zenthinite;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.transdryad.zenthinite.block.ModBlocks;
 import net.transdryad.zenthinite.item.ModItemGroups;
 import net.transdryad.zenthinite.item.ModItems;
 import org.slf4j.Logger;
@@ -13,7 +14,9 @@ public class ZenthiniteMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }
