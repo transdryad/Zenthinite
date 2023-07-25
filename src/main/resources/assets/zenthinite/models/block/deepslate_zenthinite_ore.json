@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "zenthinite:block/deepslate_zenthinite_ore"
+  }
+}

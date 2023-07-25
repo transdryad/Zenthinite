@@ -21,6 +21,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GEM_BLOCK);
                         entries.add(ModBlocks.RAW_GEM_BLOCK);
 
+                        entries.add(ModBlocks.ZENTHINITE_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_ZENTHINITE_ORE);
+                        entries.add(ModBlocks.NETHER_ZENTHINITE_ORE);
+                        entries.add(ModBlocks.END_ZENTHINITE_ORE);
+
                     }).build());
 
     public static void registerItemGroups() {

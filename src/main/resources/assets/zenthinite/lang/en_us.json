@@ -5,5 +5,10 @@
   "block.zenthinite.zenthinite_block": "Zenthinite Block",
   "block.zenthinite.raw_zenthinite_block": "Raw Zenthinite Block",
 
+  "block.zenthinite.zenthinite_ore": "Zenthinite Ore",
+  "block.zenthinite.deepslate_zenthinite_ore": "Deepslate Zenthinite Ore",
+  "block.zenthinite.nether_zenthinite_ore": "Nether Zenthinite Ore",
+  "block.zenthinite.end_stone_zenthinite_ore": "End Stone Zenthinite Ore",
+
   "itemgroup.zenthinite": "Zenthinite"
 }
