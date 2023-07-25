@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 400,
+  "experience": 6,
+  "group": "zenthinite",
+  "ingredient": {
+    "item": "zenthinite:raw_gem"
+  },
+  "result": "zenthinite:gem"
+}

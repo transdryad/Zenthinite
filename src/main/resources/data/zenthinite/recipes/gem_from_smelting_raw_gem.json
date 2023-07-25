@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 800,
+  "experience": 6,
+  "group": "zenthinite",
+  "ingredient": {
+    "item": "zenthinite:raw_gem"
+  },
+  "result": "zenthinite:gem"
+}
