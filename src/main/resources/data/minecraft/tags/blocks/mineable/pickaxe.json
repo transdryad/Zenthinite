@@ -2,6 +2,10 @@
   "replace": "false",
   "values": [
     "zenthinite:zenthinite_block",
-    "zenthinite:raw_zenthinite_block"
+    "zenthinite:raw_zenthinite_block",
+    "zenthinite:zenthinite_ore",
+    "zenthinite:deepslate_zenthinite_ore",
+    "zenthinite:nether_zenthinite_ore",
+    "zenthinite:end_stone_zenthinite_ore"
   ]
 }
