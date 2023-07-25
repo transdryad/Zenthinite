@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RRR",
+    "RRR",
+    "RRR"
+  ],
+  "key": {
+    "R": {
+      "item": "zenthinite:raw_gem"
+    }
+  },
+  "result": {
+    "item": "zenthinite:raw_zenthinite_block"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "zenthinite:zenthinite_block"
+    }
+  ],
+  "result": {
+    "item": "zenthinite:gem",
+    "count": 9
+  }
+}
