@@ -17,6 +17,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.GEM)).entries((displayContext, entries) -> {
                         entries.add(ModItems.GEM);
                         entries.add(ModItems.RAW_GEM);
+                        entries.add(ModItems.METAL_DETECTOR);
 
                         entries.add(ModBlocks.GEM_BLOCK);
                         entries.add(ModBlocks.RAW_GEM_BLOCK);

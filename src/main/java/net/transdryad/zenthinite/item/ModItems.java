@@ -9,11 +9,14 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.transdryad.zenthinite.ZenthiniteMod;
+import net.transdryad.zenthinite.item.custom.MetalDetectorItem;
 
 public class ModItems {
 
     public static final Item GEM = registerItem("gem", new Item(new FabricItemSettings()));
     public static final Item RAW_GEM = registerItem("raw_gem", new Item(new FabricItemSettings()));
+    public static final Item METAL_DETECTOR = registerItem("metal_detector",
+            new MetalDetectorItem(new FabricItemSettings().maxDamage(128)));
 
     public static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(GEM);
